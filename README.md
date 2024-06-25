@@ -29,6 +29,8 @@ brew install powerlevel10k
 p10k configure
 ```
 
+If you want the Alacritty themes, check out [this repository](https://github.com/alacritty/alacritty-theme)!
+
 #### Neovim
 
 - Install Node.js for `tsserver` and `pyright`:
