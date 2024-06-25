@@ -223,3 +223,19 @@ ojt() {
     fi
 }
 
+# Quick browser windows
+
+alias ggh="open 'https://github.com'"
+
+alias ggl="open 'https://gitlab.com'"
+
+alias gch="open 'https://itch.io'"
+
+alias gpt="open 'https://chatgpt.com'"
+
+alias gcl="open 'https://claude.ai/new'"
+
+go() {
+    local url="https://${1}"
+    open "$url"
+}
